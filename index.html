@@ -3,12 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="INFO 343 Lab 7, AJAX and Mashups">
-        <meta name="author" content="YOUR UW NET ID">
+        <meta name="author" content="edwarjm">
         <title>Earthquakes!</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <h1>Earthquakes Recorded Over the Last 7 Days</h1>
+
+        <p class="filters">Minimum Magnitude: 
+            <input type="number" class="min-magnitude" value="0" min="0" max="10" step="0.1"> 
+            <button class="refresh-button">Refresh</button>
+        </p>
         <p class="message"></p>
 
         <div class="map-container"></div>
